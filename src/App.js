@@ -1,4 +1,5 @@
 import React from 'react';
+import Routes from './routes';
 
 import './style.css';
 
@@ -8,7 +9,7 @@ import Home from './pages/home';
 const App = () => (
   <div className="App">
       <Header />
-      <Home />
+      <Routes />
   </div>
 );
 
